@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pergunte ao TOGS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="main-title">PERGUNTE AO TOGS</h1>
+
+    <div class="sixseven-container">
+      <div class="hand-container inverted">
+        <p>6</p>
+        <input type="text" id="option1" placeholder="Digite a opção 1" />
+        <img src="imgs/mao67.png" alt="mao" />
+      </div>
+
+      <img class="character" src="imgs/togs67.png" alt="togs six seven" />
+
+      <div class="hand-container">
+        <p>7</p>
+        <input type="text" id="option2" placeholder="Digite a opção 2" />
+        <img src="imgs/mao67.png" alt="mao" />
+      </div>
+    </div>
+
+    <button id="sendButton" class="send-button">DECIDIR</button>
+
+    <div id="resultOverlay" class="result-overlay hidden">
+      <div class="result-content">
+        <h2>A SENTENÇA É:</h2>
+        <p id="resultText"></p>
+        <button id="closeButton">VOLTAR</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
